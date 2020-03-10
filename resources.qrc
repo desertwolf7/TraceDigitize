@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/plugins/TraceDigitize"> 
+    <!--icon made by Robert Szczepanek . Thanks Robert-->   
+    <file>vector-create-trace.png</file>
+  </qresource>
+</RCC>

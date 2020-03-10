@@ -1,0 +1,32 @@
+; the next section is mandatory
+[general]
+; start of mandatory metadata
+name=TraceDigitize
+qgisMinimumVersion=2.0
+description=Digitize with a tracetool on background snapping layers, hold down control key for doing it
+version=version Version 0.9.5
+author=Cédric Möri
+email=cmoe@geoing.ch
+; end of mandatory metadata
+
+; start of optional metadata
+
+; experimental flag
+experimental=True
+
+changelog=ready for QGIS 2.0
+         fix API-Break 1.8 vs. 2.0
+
+; tags are in comma separated value format, spaces are allowed
+tags=digitizing
+
+; these metadata can be empty
+; in a future version of the web application it will
+; be probably possible to create a project on redmine
+; if they are not filled
+homepage=http://sourceforge.net/projects/geoing/
+tracker=https://sourceforge.net/apps/trac/geoing/
+repository=http://geoing.svn.sourceforge.net/viewvc/geoing/
+icon=vector-create-trace.png
+
+
