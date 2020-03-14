@@ -1,9 +1,9 @@
-# -*- coding: latin1 -*-
+# -*- coding: utf-8 -*-
 #---------------------------------------------------------------------
 # 
 # Trace Edit - a Qgis Plugin
 #
-# Copyright (C) 2010  Cédric Möri with lots of stuff from Stefan Ziegler (CAD-Tools)
+# Copyright (C) 2010  CÃ©dric MÃ¶ri with lots of stuff from Stefan Ziegler (CAD-Tools)
 #
 # EMAIL: cmoe (at) geoing (dot) ch
 # WEB  : www.geoing.ch
@@ -27,22 +27,22 @@
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 # 
 #---------------------------------------------------------------------
-from traceDigitize import TraceDigitize     
+from traceDigitize import TraceDigitize
 def name():
-  return "traceDigitize"
+    return "traceDigitize"
 def description():
-  return "Digitize with a tracetool on background snapping layers, hold down control key for doing it"
+    return "Digitize with a tracetool on background snapping layers, hold down control key for doing it"
 def version():
-  return "Version 0.9.5"
+    return "Version 0.9.5"
 def classFactory(iface):
-  return TraceDigitize(iface)
+    return TraceDigitize(iface)
 def qgisMinimumVersion():
-  return "2.0"
+    return "2.0"
 def author():
-  return "Cédric Möri"
+    return "CÃ©dric MÃ¶ri"
 def email():
-  return "cmoe@geoing.ch"
+    return "cmoe@geoing.ch"
 def icon():
-  return "vector-create-trace.png"
+    return "vector-create-trace.png"
 
 
